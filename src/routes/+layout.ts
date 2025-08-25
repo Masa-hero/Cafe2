@@ -1,2 +1,2 @@
-export const ssr = false;      // localStorage を使うのでクライアント実行
-export const prerender = true; // 静的出力
+export const ssr = false;
+export const prerender = true;

@@ -3,6 +3,7 @@ modules = ["svelte-kit-node-20", "nodejs-20"]
 
 [nix]
 channel = "stable-24_05"
+packages = ["nix-output-monitor"]
 
 [deployment]
 build = ["npm", "run", "build"]
