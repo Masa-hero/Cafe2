@@ -2,16 +2,15 @@
 	"name": "cafe",
 	"private": true,
 	"type": "module",
-	"engines": { "node": ">=18" },
 	"scripts": {
-		"dev": "vite dev --host 0.0.0.0",
-		"build": "svelte-kit build",
-		"preview": "svelte-kit preview --host"
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-vercel": "^3.1.0",
 		"@sveltejs/kit": "1.30.4",
-		"svelte": "^4.2.19",
-		"vite": "^4.5.0"
+		"@sveltejs/adapter-vercel": "3.1.0",
+		"svelte": "4.2.19",
+		"vite": "4.5.0"
 	}
 }
